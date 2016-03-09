@@ -36,6 +36,7 @@ UIPresentationController 的子类是负责「被呈现」(presented) 及「负�
                                                 fromViewController:(UIViewController *)fromVC
                                                   toViewController:(UIViewController *)toVC{
     if (operation == UINavigationControllerOperationPush) {
+
         返回一个自定义转场动画 在自定转场动画中写转场效果
        AnimationTranstioning *ping = [AnimationTranstioning new];
         return ping;
