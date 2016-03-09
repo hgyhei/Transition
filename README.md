@@ -2,6 +2,7 @@
 转场动画(自定义切换动画) 
 1.（转场协议Transition <UIViewControllerTransitioningDelegate>）
 转场协议中可以确定AnimationTranstioning ，UIPresentationController。
+
 2.（转场动画实现 AnimationTranstioning  NSObject<UIViewControllerAnimatedTransitioning>）
 转场动画中实现两个方法
 - (NSTimeInterval)transitionDuration:(id<UIViewControllerContextTransitioning>)transitionContext
